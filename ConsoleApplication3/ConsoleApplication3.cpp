@@ -192,31 +192,31 @@ int main()
 //return 0;
 //}
 
-int main()
-{
-	int insnum = 0;
-	int outnum = 0;
-	int i = 0;
-
-	printf("수를 입력해 주세요 : ");
-	std::cin >> insnum;
-
-	if (insnum & 2 == 0)
-	{
-		outnum = (insnum - 1);
-
-	}
-	{
-
-		while (insnum >= 1)
-		{
-			(outnum = (insnum - i * 2));
-
-				printf("%d \n", outnum);
-
-			i++;
-		}
-
-		return 0;
-	}
-}
+//int main()
+//{
+//	int insnum = 0;
+//	int outnum = 0;
+//	int i = 0;
+//
+//	printf("수를 입력해 주세요 : ");
+//	std::cin >> insnum;
+//
+//	if (insnum & 2 == 0)
+//	{
+//		outnum = (insnum - 1);
+//
+//	}
+//	{
+//
+//		while (insnum >= 1)
+//		{
+//			(outnum = (insnum - i * 2));
+//
+//				printf("%d \n", outnum);
+//
+//			i++;
+//		}
+//
+//		return 0;
+//	}
+//}
